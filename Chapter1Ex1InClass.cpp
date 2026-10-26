@@ -15,6 +15,10 @@ int main()
 		char letter;
 		letter = char(count);
 		cout << letter;
+		if (count % 16 == 0)
+			cout << endl;
+	  
+
 
 	}
 
